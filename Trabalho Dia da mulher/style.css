@@ -1,0 +1,117 @@
+*{
+    font-family: Arial;
+}
+body{
+    background-image: linear-gradient( #8C3E62, #D98B84);
+    padding: 0;
+    margin: 0;
+}
+
+/*Navebar*/
+hr{
+    margin: 0;
+    border: 2px solid #4C2C59;
+    border-radius: 5px;
+}
+.nav{
+    background-color: #F2C5BB;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 1.30em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+div a{
+    text-decoration: none;
+    color: #2E2140;
+    margin: 6em;
+}
+
+/*Conteudo*/
+.container{
+    background-color: #F2C5BB;
+    margin: auto;
+    padding: 2em;
+    width: 70%;
+    height: 100%;
+    border-radius: 0px 0px 20px 20px;
+}
+.container h1{
+    color: #4C2C59;
+    text-align: center ;
+    font-size: 2em;
+}
+.container p{
+    color: #4C2C59;
+    margin: 1em;
+    font-size: 1.50em;
+}
+
+/*Imagens*/
+.principalfoto{
+    width: 300px;
+    float: left;
+    margin: 1em;
+    border-radius: 20px;
+}
+.apollo11foto{
+    width: 300px;
+    float: left;
+    margin: 1em;
+    border-radius: 20px;
+}
+
+.biografiafoto{
+    width: 300px;
+    float: left;
+    margin: 1em;
+    border-radius: 20px;
+}
+
+.legadofoto{
+    width: 300px;
+    float: left;
+    margin: 1em;
+    border-radius: 20px;
+}
+
+/*Rodape*/
+footer div{
+    text-align: center;
+    padding: 10px;
+    font-size: 0.80em;
+}
+footer p{
+    margin: 3px;
+}
+footer a{
+    color: black;
+}
+
+/*Responsividade*/
+@media screen and (max-width: 500px) {
+    .container {
+    height: 100%;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 0;
+    padding-right: 0;
+    }
+    .nav{
+    font-size: large;
+    }
+    div a{
+    margin: 1em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav{
+    font-size: large;
+    }
+    div a{
+    margin: 1em;
+    }
+}
